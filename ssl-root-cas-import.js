@@ -15,10 +15,12 @@
  * along with Node Free Mobile SMS API. If not, see <http://www.gnu.org/licenses/>.
  */
 
-var GNU_LGPL_V3 = "Node Free Mobile SMS API Copyright (C) 2015  Antoine `Gecko` Pous" + 
-                  "This program comes with ABSOLUTELY NO WARRANTY." +
-                  "This is free software, and you are welcome to redistribute it" +
-                  "under GNU Lesser GENERAL PUBLIC LICENSE Version 3, " +
-                  "see https://github.com/Antoine-Pous/node-free-mobile-sms-api/blob/master/LICENSE-LGPL-v3.md for details.";
+var GNU_LGPL_V3 = "\r\n################################################################################################################ \r\n" +
+                  "#   Node Free Mobile SMS API Copyright (C) 2015  Antoine `Gecko` Pous.                                         # \r\n" + 
+                  "#   This program comes with ABSOLUTELY NO WARRANTY.                                                            # \r\n" +
+                  "#   This is free software, and you are welcome to redistribute it                                              # \r\n" +
+                  "#   under GNU Lesser GENERAL PUBLIC LICENSE Version 3,                                                         # \r\n" +
+                  "#   see https://github.com/Antoine-Pous/node-free-mobile-sms-api/blob/master/LICENSE-LGPL-v3.md for details.   # \r\n" +
+                  "################################################################################################################ \r\n\r\n";
 console.log(GNU_LGPL_V3);
 var ssl = require("ssl-root-cas/latest").inject();

@@ -1,7 +1,7 @@
 {
   "name": "free-mobile-sms-api",
   "description": "Free Mobile SMS API - Give you a simplified way to use the official SMS API powered by Free",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "https://github.com/Antoine-Pous/free-mobile-sms-api",
   "author": {
     "name": "Antoine `Gecko` Pous",

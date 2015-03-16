@@ -53,7 +53,6 @@ function FreeMobileSmsAPI() {
     var req = https.request(options, function(res) {
       
       var type = typeof(code[parseInt(res.statusCode)]) != "undefined" && res.statusCode == 200 ? 'success' : 'error';
-      console.log(type);
       self.emit('sms:' + type, {id: res.statusCode, account: data.user, msg: code[parseInt(res.statusCode)], sms:data.msg});
       
     });

@@ -30,6 +30,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@antoine-pous'
       - run: npm install --package-lock-only
+      - run: echo "registry=https://npm.pkg.github.com/@antoine-pous" >> .npmrc
       - run: npm ci
       - run: npm publish
         env:

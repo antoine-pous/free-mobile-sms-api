@@ -1,6 +1,9 @@
 Free Mobile SMS API
 ============
-[![codecov](https://codecov.io/gh/antoine-pous/free-mobile-sms-api/branch/master/graph/badge.svg?token=DVWjdZWeNu)](undefined)
+![codecov](https://codecov.io/gh/antoine-pous/free-mobile-sms-api/branch/master/graph/badge.svg?token=DVWjdZWeNu)
+![TSC CI](https://github.com/antoine-pous/free-mobile-sms-api/workflows/TSC%20CI/badge.svg)
+![NPM release](https://github.com/antoine-pous/free-mobile-sms-api/workflows/NPM%20release/badge.svg)
+![GPR release](https://github.com/antoine-pous/free-mobile-sms-api/workflows/GPR%20release/badge.svg)
 
 This package let you send SMS to your Free Mobile number using the official API.
 

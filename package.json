@@ -1,8 +1,8 @@
 {
   "name": "free-mobile-sms-api",
-  "description": "Free Mobile SMS API - Give you a simplified way to use the official SMS API powered by Free",
-  "version": "1.0.4",
-  "homepage": "https://github.com/Antoine-Pous/free-mobile-sms-api",
+  "description": "Free Mobile SMS API - Give you a simplified way to use the official SMS API powered by Free mobile",
+  "version": "2.0.0",
+  "homepage": "https://github.com/antoine-pous/free-mobile-sms-api",
   "author": {
     "name": "Antoine `Gecko` Pous",
     "email": "gecko@dvp.io",
@@ -10,36 +10,36 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Antoine-Pous/free-mobile-sms-api.git"
+    "url": "git://github.com/antoine-pous/free-mobile-sms-api.git"
   },
   "bugs": {
-    "url": "https://github.com/Antoine-Pous/free-mobile-sms-api/issues"
+    "url": "https://github.com/antoine-pous/free-mobile-sms-api/issues"
   },
-  "licenses": [
-    {
-      "type": "GNU LGPL v3",
-      "url": "https://github.com/Antoine-Pous/node-free-mobile-sms-api/blob/master/LICENSE-LGPL-v3.md"
-    }
-  ],
-  "main": "free-mobile-sms-api",
-  "engines": {
-    "node": ">=0.10.26"
-  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "dist/index.js",
   "dependencies": {
-    "ssl-root-cas": ">=1.1.10"
+    "axios": "^0.20.0",
+    "envalid": "^6.0.2",
+    "uuid": "^8.3.1"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.8",
+    "@types/uuid": "^8.3.0",
+    "jest": "^26.5.3",
+    "jest-mock-axios": "^4.2.1",
+    "ts-jest": "^26.4.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
   },
   "scripts": {
-    "postinstall": "node ./ssl-root-cas-import.js"
+    "test": "env FREE_MOBILE_API_USER=test FREE_MOBILE_API_PASSWORD=test jest"
   },
   "keywords": [
     "Free",
     "Mobile",
     "SMS",
-    "API",
-    "post-send"
+    "API"
   ],
-  "readme": "",
   "readmeFilename": "README.md"
 }

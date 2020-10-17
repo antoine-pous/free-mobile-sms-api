@@ -49,7 +49,7 @@ const smsId: string = sms.queueMessage("Hello world!")
 
 You can also queue many messages at once:
 ```ts
-const smsId: string = sms.queueMessages([
+const smsIds: string[] = sms.queueMessages([
   "Hello world! 1/3"
   , "Hello world! 2/3"
   , "Hello world! 3/3"

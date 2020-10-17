@@ -33,7 +33,8 @@
     "typescript": "^4.0.3"
   },
   "scripts": {
-    "test": "env FREE_MOBILE_API_USER=test FREE_MOBILE_API_PASSWORD=test jest"
+    "test": "env FREE_MOBILE_API_USER=test FREE_MOBILE_API_PASSWORD=test jest",
+    "build": "tsc"
   },
   "keywords": [
     "Free",
